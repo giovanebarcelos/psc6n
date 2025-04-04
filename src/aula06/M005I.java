@@ -8,6 +8,34 @@ c) Calcule a soma de todos os elementos da matriz;
 d) Calcule a soma do diagonal principal;
 e) Calcule a soma da diagonal secundária.
  */
+
+/*
+Diagrama de Classes
+class M005 {
+  + void main(String args[]);
+}
+
+class Matriz {
+  - int[][] matriz;
+
+  + Matriz( int linha, int coluna);
+  + void imprimir();
+  + void imprimirEstatisticas();
+
+  - void preencherMatriz();
+
+  - int getSomaElementosPrimeiraColuna();
+  - int getProdutoElementosPrimeiraLinha();
+  - int getSomaTodosElementos();
+  - int getSomaDiagonalPrincipal();
+  - int getSomaDiagonalSecundaria();
+
+}
+
+M005 ..> Matriz
+ */
+
+
 public class M005I {
     public static void main(String[] args) {
         int[][] matriz = {{1,2,3,4}, {5,6,7,8},
