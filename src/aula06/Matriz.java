@@ -97,4 +97,7 @@ public class Matriz {
 
         return somaPrimeiraColuna;
     }
+
+    public void imprimirMedia() {
+    }
 }
